@@ -29,7 +29,12 @@ Apple Silicon Macs need macOS 13 or later. Intel Macs need macOS 11 or later.
 
 ### Windows
 
-Download `LoreChess-windows.zip`, unzip it, and run `LoreChess.exe`. Windows may say it "protected your PC"
+```powershell
+scoop bucket add imahungover https://github.com/ImAHungover/scoop-bucket
+scoop install imahungover/lore-chess
+```
+
+Or download `LoreChess-windows.zip`, unzip it, and run `LoreChess.exe`. Windows may say it "protected your PC"
 because the app is not signed: choose **More info**, then **Run anyway**.
 
 ### Linux (x86-64)
