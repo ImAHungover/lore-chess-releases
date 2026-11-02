@@ -19,11 +19,7 @@ If Homebrew says the tap is untrusted, run `brew trust --cask imahungover/tap/lo
 
 Or download `LoreChess-mac.zip` from the latest release and move `LoreChess.app` to Applications.
 
-Lore Chess is not notarized by Apple yet, so macOS may block it the first time. To allow it, run:
-
-```bash
-xattr -dr com.apple.quarantine /Applications/LoreChess.app
-```
+The app is signed and notarized by Apple, so it opens without warnings.
 
 Apple Silicon Macs need macOS 13 or later. Intel Macs need macOS 11 or later.
 
