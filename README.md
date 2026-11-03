@@ -35,7 +35,14 @@ because the app is not signed: choose **More info**, then **Run anyway**.
 
 ### Linux (x86-64)
 
-Download `LoreChess-linux.zip`, unzip it, and run `LoreChess.x86_64`.
+Download `LoreChess-x86_64.AppImage` from the latest release, then:
+
+```bash
+chmod +x LoreChess-x86_64.AppImage
+./LoreChess-x86_64.AppImage
+```
+
+If it says FUSE is missing, install the `fuse3` package, or run it with `--appimage-extract-and-run`.
 
 ## Licences
 
